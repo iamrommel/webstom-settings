@@ -1,4 +1,4 @@
-<keymap version="1" name="Default for Windows copy" parent="$default">
+<keymap version="1" name="Main Keyboard Map" parent="$default">
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
