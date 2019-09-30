@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File '...\src\views\classRecord\list\withChangeStatus.js'" />
+    <option name="defaultScopeName" value="File '...\src\views\classRecord\list\withChangeStatus.js'" />
+    <option name="SEARCH_SCOPE" value="File '...\src\views\classRecord\list\withChangeStatus.js'" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.ng</mask>
