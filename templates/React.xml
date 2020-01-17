@@ -3,4 +3,10 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="rc" value="import React, { useContext as useContextCore } from 'react'&#10;&#10;const context = React.createContext()&#10;const CoreProvider = context.Provider&#10;&#10;export const Provider = ({ children, ...props }) =&gt; {&#10;  return (&#10;    &lt;CoreProvider value={{ ...props }}&gt;&#10;      {children}&#10;    &lt;/CoreProvider&gt;&#10;  )&#10;}&#10;&#10;export const useContext = () =&gt; useContextCore(context)&#10;" description="Create a defaul react context" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
