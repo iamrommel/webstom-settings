@@ -1,0 +1,9 @@
+<templateSet group="JavaScript">
+  <template name="story" value="import React from 'react'&#10;import { text } from '@storybook/addon-knobs'&#10;&#10;import { $COMPONENT$ } from './index'&#10;import { setupStory } from '../../../.storybook/utils'&#10;&#10;const stories = setupStory({ component: 'Icon' })&#10;&#10;const setKnobs = () =&gt; {&#10;  return {&#10;    name: text('name', 'user'),&#10;  }&#10;}&#10;&#10;stories.addWithJSX('default', () =&gt; {&#10;  const props = setKnobs()&#10;  return &lt;$COMPONENT$ {...props} /&gt;&#10;})&#10;" description="Create default story book file" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
