@@ -9,9 +9,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sst" value="const [$NAME$, $SETNAME$ ] = React.useState(null)" description="Creates a hook state" toReformat="true" toShortenFQNames="true">
+  <template name="sst" value="const [$NAME$, $SETNAME$ ] = React.useState($DEFAULTVALUE$)" description="Creates a hook state" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <variable name="SETNAME" expression="camelCase(concat(&quot;set-&quot;, NAME  ))" defaultValue="" alwaysStopAt="false" />
+    <variable name="DEFAULTVALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <context />
   </template>
 </templateSet>
