@@ -11,6 +11,7 @@
       <mapping ext="mobileprovision" type="PLAIN_TEXT" />
       <mapping ext="dll" type="PLAIN_TEXT" />
       <mapping ext="logs" type="PLAIN_TEXT" />
+      <mapping ext="bcmap" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="p12" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
