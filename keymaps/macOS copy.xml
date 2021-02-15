@@ -58,6 +58,10 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="meta 1" />
   </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="ctrl meta t" />
+  </action>
   <action id="Svn.RefreshWorkingCopies" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy" />
