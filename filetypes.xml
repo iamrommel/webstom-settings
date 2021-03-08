@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Gemfile" type="AUTO_DETECTED" />
       <mapping pattern="Fastfile" type="AUTO_DETECTED" />
+      <mapping pattern="102" type="AUTO_DETECTED" />
       <mapping pattern="storybook-dockerfile" type="Dockerfile" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
