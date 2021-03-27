@@ -95,9 +95,6 @@
   <template name="moduleexports" value="module.exports = $END$" description="Export statement - module.exports = a" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="log" value="console.log($END$)" description="console.log()" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
   <template name="error" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
