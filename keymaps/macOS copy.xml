@@ -15,6 +15,11 @@
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ChangesView.ShelveSilently" />
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="Diff.ShowSettingsPopup" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
@@ -30,16 +35,11 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="meta f" />
-    <keyboard-shortcut first-keystroke="ctrl f" />
-  </action>
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
-  </action>
   <action id="Git.Stage.Refresh" />
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="ctrl meta o" />
@@ -51,11 +51,10 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl h" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Rerun" />
   <action id="SaveAll">
@@ -77,6 +76,7 @@
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Uml.ShowDiff" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.QuickListPopupAction" />
