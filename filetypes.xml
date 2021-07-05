@@ -5,7 +5,6 @@
       <mapping pattern="Fastfile" type="AUTO_DETECTED" />
       <mapping pattern="102" type="AUTO_DETECTED" />
       <mapping pattern="storybook-dockerfile" type="Dockerfile" />
-      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern=".env.local.production" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
