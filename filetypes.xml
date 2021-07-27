@@ -5,17 +5,17 @@
       <mapping pattern="Fastfile" type="AUTO_DETECTED" />
       <mapping pattern="102" type="AUTO_DETECTED" />
       <mapping pattern="storybook-dockerfile" type="Dockerfile" />
-      <mapping pattern=".env.test" type="PLAIN_TEXT" />
-      <mapping pattern=".env.local.production" type="PLAIN_TEXT" />
-      <mapping pattern=".env.production" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern=".env.local-prod" type="PLAIN_TEXT" />
       <mapping pattern="nul" type="PLAIN_TEXT" />
+      <mapping pattern=".env.test" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env.migration" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".env.beta-migration" type="PLAIN_TEXT" />
-      <mapping pattern=".env.production.local" type="PLAIN_TEXT" />
-      <mapping pattern=".env.migration" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern="captain-definition" type="PLAIN_TEXT" />
+      <mapping pattern=".env.local.production" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production.local" type="PLAIN_TEXT" />
+      <mapping pattern=".env.local-prod" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="mobileprovision" type="PLAIN_TEXT" />
       <mapping ext="dll" type="PLAIN_TEXT" />
