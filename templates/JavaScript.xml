@@ -22,7 +22,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="getset" value="_$FIELDNAME$ = null&#10;  get $FIELDNAME$() {&#10;    if (!this._$FIELDNAME$) {&#10;      this._$FIELDNAME$ = new Object()&#10;      return this._$FIELDNAME$&#10;    }&#10;    return this._$FIELDNAME$&#10;  }&#10;  set $FIELDNAME$(value) {&#10;    this._$FIELDNAME$ = value&#10;  }" description="Gets and Sets the property for a class" toReformat="true" toShortenFQNames="true">
+  <template name="get" value="_$FIELDNAME$ = null&#10;  get $FIELDNAME$() {&#10;    if (!this._$FIELDNAME$) {&#10;      this._$FIELDNAME$ = new Object()&#10;      return this._$FIELDNAME$&#10;    }&#10;    return this._$FIELDNAME$&#10;  }&#10;" description="Gets and Sets the property for a class" toReformat="true" toShortenFQNames="true">
     <variable name="FIELDNAME" expression="fieldName" defaultValue="fieldName" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
