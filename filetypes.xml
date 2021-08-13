@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="Gemfile" type="AUTO_DETECTED" />
       <mapping pattern="Fastfile" type="AUTO_DETECTED" />
       <mapping pattern="102" type="AUTO_DETECTED" />
