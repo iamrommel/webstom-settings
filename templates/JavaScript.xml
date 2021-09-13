@@ -31,5 +31,8 @@
   <template name="co" value="const $NAME$ =  $EXP$" description="Create constants variable" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <variable name="EXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
   </template>
 </templateSet>
