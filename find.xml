@@ -2,12 +2,17 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>schema.js</mask>
+    <mask>graphql.js</mask>
+    <mask>package.json</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
-    <mask>*.ng</mask>
     <mask>*.shtml</mask>
     <mask>*.shtm</mask>
+    <mask>*.ng</mask>
     <mask>*.htm</mask>
     <mask>*.sht</mask>
     <mask>*.html</mask>
@@ -15,8 +20,5 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>schema.js</mask>
-    <mask>graphql.js</mask>
-    <mask>package.json</mask>
   </component>
 </application>
