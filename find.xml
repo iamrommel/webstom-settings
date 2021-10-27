@@ -20,6 +20,7 @@
     <mask>*.ats</mask>
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
+    <mask>*.spec.js</mask>
     <mask>*.js</mask>
   </component>
 </application>
