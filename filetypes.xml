@@ -11,6 +11,7 @@
       <mapping pattern="nul" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".__babelrc" type="PLAIN_TEXT" />
       <mapping pattern=".env.migration" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".env.beta-migration" type="PLAIN_TEXT" />
