@@ -19,4 +19,10 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="rci" value="import React from 'react'&#10;import {Provider} from './Context'&#10;import {Layout} from './Layout'&#10;&#10;export const $TM_FILENAME_BASE$ = (props) =&gt; {&#10;  return (&#10;    &lt;Provider {...props}&gt;&#10;      &lt;Layout /&gt;&#10;    &lt;/Provider&gt;&#10;  )&#10;}&#10;" description="index with context and provider" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
