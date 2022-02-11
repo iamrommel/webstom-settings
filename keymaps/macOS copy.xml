@@ -72,6 +72,7 @@
   <action id="Svn.RefreshWorkingCopies" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl meta alt t" />
+    <keyboard-shortcut first-keystroke="shift t" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy" />
