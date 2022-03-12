@@ -27,5 +27,6 @@
     <mask>*.spec</mask>
     <mask>package.json</mask>
     <mask>project.json</mask>
+    <mask>*.stories.js</mask>
   </component>
 </application>
