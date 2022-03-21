@@ -25,4 +25,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rsi" value="import React from 'react';&#10;import {Provider} from './Context'&#10;import {Layout} from './Layout'&#10;export default (props) =&gt; {&#10; return (&#10;  &lt;Provider {...props}&gt;&#10;      &lt;Layout/&gt;&#10;  &lt;/Provider&gt;&#10; )&#10; }" description="Creates a stateless React component without PropTypes and ES6 module system but with Implicit Return and props" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
