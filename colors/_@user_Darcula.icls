@@ -4,7 +4,7 @@
     <property name="created">2022-04-12T17:22:32</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-04-12T17:34:49</property>
+    <property name="modified">2022-06-16T20:15:21</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -17,4 +17,12 @@
     <option name="EDITOR_FONT_SIZE" value="15" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
+  <attributes>
+    <option name="EXECUTIONPOINT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="161717" />
+        <option name="BACKGROUND" value="f4f86f" />
+      </value>
+    </option>
+  </attributes>
 </scheme>
