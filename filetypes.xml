@@ -25,6 +25,7 @@
       <mapping pattern=".env.production.local" type="PLAIN_TEXT" />
       <mapping pattern=".env.local-prod" type="PLAIN_TEXT" />
       <mapping pattern=".mocharc" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production-migration" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="mobileprovision" type="PLAIN_TEXT" />
       <mapping ext="dll" type="PLAIN_TEXT" />
