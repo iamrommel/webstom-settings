@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="no_script_folder" />
+    <option name="defaultScopeName" value="no_script_folder" />
+    <option name="SEARCH_SCOPE" value="no_script_folder" />
     <mask>schema.js</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
