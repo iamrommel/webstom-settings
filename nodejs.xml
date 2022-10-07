@@ -3,9 +3,6 @@
     <local-interpreter path="/opt/homebrew/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="12.14.1" last-modified="1663588162671" />
-    </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v16.13.2/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
@@ -17,6 +14,9 @@
     </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v12.22.1/bin/node">
       <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="12.14.1" last-modified="1663588162671" />
     </local-interpreter>
   </component>
 </application>
