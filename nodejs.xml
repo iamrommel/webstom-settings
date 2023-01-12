@@ -15,6 +15,8 @@
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v12.22.1/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node" />
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="12.14.1" last-modified="1672643025278" />
+    </local-interpreter>
   </component>
 </application>
